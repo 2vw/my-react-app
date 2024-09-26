@@ -66,3 +66,36 @@
     transform: rotate(2000deg);
   }
 }
+
+.navbar {
+  background-color: #282c34;
+}
+
+.navbar-menu {
+  background-color: #282c34;
+}
+
+.navbar-item {
+  color: white;
+}
+
+.navbar-item:hover {
+  background-color: #444;
+}
+
+.navbar-burger {
+  color: white;
+}
+
+.navbar-burger:hover {
+  background-color: #444;
+}
+
+.navbar-burger span {
+  background-color: white;
+}
+
+.navbar-burger span:hover {
+  background-color: #444;
+} 
+
