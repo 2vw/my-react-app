@@ -3,7 +3,6 @@
 }
 
 .App-logo {
-  height: 40vmin;
   pointer-events: none;
 }
 
@@ -99,3 +98,32 @@
   background-color: #444;
 } 
 
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: white;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+  margin-bottom: 0.5em;
+  border: 1px solid #444;
+}
+
+button[type=submit] {
+  display: block;
+  width: 100%;
+  padding: 0.5em;
+  font-size: 1em;
+  background-color: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button[type=submit]:hover {
+  background-color: #555;
+}
